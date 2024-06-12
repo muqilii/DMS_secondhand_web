@@ -1,0 +1,109 @@
+*{
+    /* margin: 2px;
+    padding: auto; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.logo
+{
+    width: 100px;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+    margin: -7px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0;
+    z-index: 1;
+}
+
+.cart span{
+    border: 1px solid rgb(254, 52, 52);
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: smaller;
+    position: relative;
+}
+section {
+    width: 100%;
+    padding: 5rem;
+  }
+
+  .shop_intro {
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.shop_intro .shop_intro-image {
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+}  
+
+.shop_intro .shop_intro-description {
+    position: absolute;
+    width: 25%;
+    left: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .shop_intro .shop_intro-title {
+    font-family: "Fuzzy Bubbles", cursive;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 1rem;
+  }
+  .shop_intro .shop_intro-subtitle {
+    font-family: "Fuzzy Bubbles", cursive;
+    font-size: 22px;
+    font-size: 400;
+    margin-left: 4rem;
+    line-height: 35px;
+  }
+
+#explore_btn{
+    margin:0 auto; 
+    top: 80%; 
+    z-index: 0; 
+    left:20%; 
+    position: absolute;
+}
+
+.card {
+    max-width: 18rem;
+}
+.card-image{
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+}
+
+.slider-btn .btn {
+    background-color: wheat;
+    color: black;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .shop_intro-description{
+        color: white;
+    }
+    .shop_intro-title{
+        color: rgb(168,95,45);
+    }
+    #explore_btn{
+        top:95%;
+        left: 25%;
+    }
+}

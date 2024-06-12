@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>注册</title>
+<link rel="stylesheet" href="register.css">
+<meta name="content-type"; charset="UTF-8">
+</head>
+<body>
+<div id="bigBox">
+<h1>Register Page</h1>
+
+
+<form action="registerInsert.php" method="post">
+<div class="inputBox">
+
+<div class="inputText">
+<input type="text" id="id_name" name="username" required="required" placeholder="Username">
+</div>
+<div class="inputText">
+  <input type="password" id="password" name="password" required="required" placeholder="Password">
+</div>
+<div class="inputText">
+<input type="number" id="phone" name="phone" required="required" placeholder="Phone Number">
+</div>
+<div class="inputText">
+<input type="text" id="info" name="information" required="required" placeholder="Information">
+</div>
+<div class="inputText">
+<b style="color:white;">Buyer</b><input type="radio" name="UserType" value="buyer" required/>
+<b style="color:white;">Seller</b><input type="radio" name="UserType" value="seller" required/>
+<br><br>
+</div>
+<br>
+  <br>
+  <p style="font-family: 'Times New Roman', Times, serif;color:white;">Already have an account? <a href="Login.html" style="text-decoration: none; color: pink; font-weight: bold;">Sign in</a></p>
+  <br>
+</div>
+<div>
+<input type="submit" id="register" name="register" value="sign up" class="loginButton m-left">
+<input type="reset" id="reset" name="reset" value="reset" class="loginButton">
+</div>
+
+</form>
+</div>
+</body>
+</html>
